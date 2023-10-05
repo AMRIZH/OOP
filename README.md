@@ -1,4 +1,4 @@
-# Reporotori tugas matakuliah Praktikum Object Oriented Programming
+# Repositori tugas matakuliah Praktikum Object Oriented Programming
 
 ## S1 Informatika Kelas Internasional
 ## Universitas Muhammadiyah Surakarta
@@ -9,4 +9,5 @@
 
 ## link modul :
 [1. Link Modul 2](/modul2)
+
 [2. Link Modul 3](/modul3)
