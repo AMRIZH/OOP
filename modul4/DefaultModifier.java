@@ -13,7 +13,7 @@ public class DefaultModifier {
     int b = 2;
     int c;
         
-    void jumlah() {
+    public void jumlah() {
         c = a + b;
         System.out.println(c);
     }
