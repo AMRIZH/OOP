@@ -12,4 +12,6 @@
 
 [2. Link Modul 3 Tugas](/modul3/Nilai.java)
 
-[3. Link Modul 4 Latihan](/modul4)
+[3. Link Modul 2 Aplikasi Perbankan Demo](/modul2/BankDemo)
+
+[4. Link Modul 4 Latihan](/modul4)
