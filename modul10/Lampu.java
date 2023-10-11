@@ -12,5 +12,17 @@ public class Lampu implements ActivityLampu{
         System.out.println("Lampu sudah dimatikan bng");
       }
     }
-  
+    @Override
+    public void nyalakanLampu() {
+      if (statusLampu == 1){
+        System.out.println("lampu sudah dinyalakan");
+        } else {
+          statusLampu =+ 1;
+          System.out.println("Lampu sudah dalam keadaan menyala");
+        }
+    }
+
+    public int setSaklar(int saklar){
+      return statusLampu = saklar;
+    }
 }
