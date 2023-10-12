@@ -38,5 +38,11 @@ public class Buku {
     Buku b2 = new Buku("mahmud");
     Buku b3 = new Buku("Semangat Luar biasa", 2022, 200000);
     Buku b4 = new Buku("Ahmad", "Gelora Api", 4);
+    Buku b5 = new Buku("Rahasia Kucing", 2010, 50000);
+    Buku b6 = new Buku("Ratu Nyi loro kidul", "Aku g suka warna ijo", 6);
+    Buku b7 = new Buku("Bukan manusia");
+    Buku b8 = new Buku("ini buku mahal", 1999, 999999);
+    Buku b9 = new Buku("Semangat membara", 1944, 50000);
+    Buku b10 = new Buku("Dora", "menguak sekte sesat bubur diaduk", 22);
   }
 }
