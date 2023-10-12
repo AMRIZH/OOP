@@ -10,7 +10,7 @@
 ## link file Tugas :
 [1. Link Modul 2 Latihan & Tugas](/modul2)
 
-[- Link Modul 2 Aplikasi Perbankan Demo](/modul2/BankDemo.java)
+[- Link Modul 2 Aplikasi Perbankan Demo](/modul2/Bank.java)
 
 [2. Link Modul 3 Tugas](/modul3/Nilai.java)
 
