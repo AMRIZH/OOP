@@ -7,10 +7,12 @@ public class Buku {
   int cetakanKe;
   double hargaJual;
 
+  //default constructor
   public Buku(){
     System.out.println("Ini adalah buku");
   }
 
+  //parameter construktor 
   public Buku(String namaPengarang){
     this.namaPengarang = namaPengarang;
     System.out.println("Ini adalah buku yang dibuat oleh " + namaPengarang);
@@ -30,6 +32,7 @@ public class Buku {
     System.out.println("Buku yang dikarang oleh " + namaPengarang + " yang berjudul " + judulBuku + " dicetak sebanyak " + cetakanKe + " kali");
   }
 
+  //main program
   public static void main(String[] args) {
     Buku b1 = new Buku();
     Buku b2 = new Buku("mahmud");
