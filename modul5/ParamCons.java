@@ -12,4 +12,9 @@ public class ParamCons {
   public void info() {
     System.out.println("Nama : " + nama + "\nNIM : " + nim + "\nSemester : " + semester);
   }
+
+  public static void main(String[] args) {
+    ParamCons pc = new ParamCons("Zorojuro", 3, "L2002232414");
+    pc.info();
+  }
 }
