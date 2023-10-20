@@ -14,10 +14,4 @@ public class Persegi extends BangunDatar{
   public double hitungKeliling(){
     return this.keliling = sisi*4;
   }
-
-  // public static void main(String[] args) {
-  //   Persegi p = new Persegi(24);
-  //   p.hitungLuas();
-  //   p.hitungKeliling();
-  // }
 }

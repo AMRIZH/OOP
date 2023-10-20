@@ -17,4 +17,3 @@ public class BangunDatar {
     System.out.println("Keliling bangun datdar ini : " + this.keliling);
   }
 }
-
