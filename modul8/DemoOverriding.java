@@ -6,5 +6,6 @@ public class DemoOverriding {
     ChildClazz cc = new ChildClazz();
     pc.printOut();
     cc.printOut();
+    cc.hello();
   }
 }

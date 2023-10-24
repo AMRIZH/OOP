@@ -6,9 +6,8 @@ public class KaryawanDemo {
     mgr1.setgaji(10000);
     mgr1.setNama("asep");
     mgr1.setUsia(28);
-
     System.out.println("Nama : " + mgr1.getNama());
-    System.out.println("Gaji : Rp."+mgr1.getgaji()+"/bulan");
+    System.out.println("Gaji : Rp."+mgr1.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr1.getUsia()+" tahun");
 
     Manager mgr2 = new Manager();
@@ -16,7 +15,7 @@ public class KaryawanDemo {
     mgr2.setNama("dwi");
     mgr2.setUsia(34);
     System.out.println("\nNama : " + mgr2.getNama());
-    System.out.println("Gaji : Rp."+mgr2.getgaji()+"/bulan");
+    System.out.println("Gaji : Rp."+mgr2.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr2.getUsia()+" tahun");
 
     Manager mgr3 = new Manager();
@@ -24,7 +23,7 @@ public class KaryawanDemo {
     mgr3.setNama("febri");
     mgr3.setUsia(29);
     System.out.println("\nNama : " + mgr3.getNama());
-    System.out.println("Gaji : Rp."+mgr3.getgaji()+"/bulan");
+    System.out.println("Gaji : Rp."+mgr3.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr3.getUsia()+" tahun");
 
     Manager mgr4 = new Manager();
@@ -32,7 +31,7 @@ public class KaryawanDemo {
     mgr4.setNama("hilman");
     mgr4.setUsia(27);
     System.out.println("\nNama : " + mgr4.getNama());
-    System.out.println("Gaji : Rp."+mgr4.getgaji()+"/bulan");
+    System.out.println("Gaji : Rp."+mgr4.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr4.getUsia()+" tahun");
 
     Manager mgr5 = new Manager();
@@ -40,7 +39,7 @@ public class KaryawanDemo {
     mgr5.setNama("junaedi");
     mgr5.setUsia(26);
     System.out.println("\nNama : " + mgr5.getNama());
-    System.out.println("Gaji : Rp."+mgr5.getgaji()+"/bulan");
+    System.out.println("Gaji : Rp."+mgr5.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr5.getUsia()+" tahun");
   }
 }

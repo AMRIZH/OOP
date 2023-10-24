@@ -1,7 +1,7 @@
 package modul7;
 
 public class Manager extends Karyawan{
-  private float jamKerja = 7.5f;
+  private float jamKerja = 8.5f;
 
   public int jamKerja() {
     return (int) jamKerja;
