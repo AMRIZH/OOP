@@ -19,3 +19,5 @@
 [4. Link Modul 5 Tugas](/modul5/Lecturer.java)
 
 [5. Link Modul 6 Tugas](/modul6/tugas/BangunDatarDemo.java)
+
+[6. Link Modul 7 Latihan](/modul7/KaryawanDemo.java)
