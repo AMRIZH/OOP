@@ -6,6 +6,7 @@ public class KaryawanDemo {
     mgr1.setgaji(10000);
     mgr1.setNama("asep");
     mgr1.setUsia(28);
+    mgr1.setJamKerja(8.5f);
     System.out.println("Nama : " + mgr1.getNama());
     System.out.println("Gaji : Rp."+mgr1.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr1.getUsia()+" tahun");
@@ -14,6 +15,7 @@ public class KaryawanDemo {
     mgr2.setgaji(5000);
     mgr2.setNama("dwi");
     mgr2.setUsia(34);
+    mgr2.setJamKerja(8.5f);
     System.out.println("\nNama : " + mgr2.getNama());
     System.out.println("Gaji : Rp."+mgr2.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr2.getUsia()+" tahun");
@@ -22,6 +24,7 @@ public class KaryawanDemo {
     mgr3.setgaji(6000);
     mgr3.setNama("febri");
     mgr3.setUsia(29);
+    mgr3.setJamKerja(8.5f);
     System.out.println("\nNama : " + mgr3.getNama());
     System.out.println("Gaji : Rp."+mgr3.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr3.getUsia()+" tahun");
@@ -41,5 +44,13 @@ public class KaryawanDemo {
     System.out.println("\nNama : " + mgr5.getNama());
     System.out.println("Gaji : Rp."+mgr5.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr5.getUsia()+" tahun");
+
+    Manager m = new Manager();
+    m.setgaji(9000);
+    m.setNama("krisna");
+    m.setUsia(25);
+    System.out.println("\nNama : " + m.getNama());
+    System.out.println("Gaji : Rp."+m.getGajiManager()+"/bulan");
+    System.out.println("Usia : "+m.getUsia()+" tahun");
   }
 }
