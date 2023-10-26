@@ -1,10 +1,11 @@
 package modul8.latihan;
 
 public class Pet {
-  protected String name;
-  protected String suara;
-  protected String makanan;
+  private String name;
+  private String suara;
+  private String makanan;
 
+  // seter getter nama
   public void setName(String beriNama){
     this.name = beriNama;
   }
@@ -13,12 +14,18 @@ public class Pet {
     return this.name;
   }
 
-  public String behaviour(){
-    return "Hewan mencakar";
+  // setter getter suara
+  public void setSuara(String suara){
+    this.suara = suara;
   }
 
-  public String bersuara(){
+  public String getSuara(){
     return this.suara;
+  }
+
+  // setter getter makanan
+  public void setMakan(String makan){
+    this.makanan = makan;
   }
 
   public void makanApa(){
