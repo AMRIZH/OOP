@@ -1,5 +1,4 @@
 package modul9.latihan;
-
 import modul9.MethodAbstrak;
 
 public class PersegiPanjang extends MethodAbstrak{

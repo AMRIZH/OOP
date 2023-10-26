@@ -44,13 +44,6 @@ public class KaryawanDemo {
     System.out.println("\nNama : " + mgr5.getNama());
     System.out.println("Gaji : Rp."+mgr5.getGajiManager()+"/bulan");
     System.out.println("Usia : "+mgr5.getUsia()+" tahun");
-
-    Manager m = new Manager();
-    m.setgaji(9000);
-    m.setNama("krisna");
-    m.setUsia(25);
-    System.out.println("\nNama : " + m.getNama());
-    System.out.println("Gaji : Rp."+m.getGajiManager()+"/bulan");
-    System.out.println("Usia : "+m.getUsia()+" tahun");
+    
   }
 }
