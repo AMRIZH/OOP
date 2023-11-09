@@ -51,9 +51,7 @@ public class Nilai {
         abdul.setTugas(97);
         System.out.println("Nilai Tugas : " + abdul.nilaiTugas);
         System.out.println("Tota nilai : " + (abdul.nilaiUAS+abdul.nilaiUTS+abdul.nilaiTugas)/3 );
-
-    }
-    
-    
+    }   
 }
+
 

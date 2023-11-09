@@ -5,9 +5,8 @@ import java.lang.Math;
 public class SegiTigaSamaKaki extends SegiTiga{
   double sisiMiring;
 
-  public SegiTigaSamaKaki(double alas, double tinggi){
-    this.alas = alas;
-    this.tinggi = tinggi;
+  public SegiTigaSamaKaki(double alas, double tinggi, double sisiMiring){
+    // super(alas, tinggi);
     this.sisiMiring = Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2));
   }
 
