@@ -12,7 +12,7 @@ public class FractionDemo {
     System.out.println("Value of object q is = "+q.getNumerator()+"/"+q.getDenominator()+"\n");
     System.out.println("Value of object r is = "+r.getNumerator()+"/"+r.getDenominator()+"\n");
 
-    //add two fractions and store the result in a third fraction
+    //add new fraction for storing the result
     Fraction s = new Fraction();
 
     //Multiplication of 2 Fraction : p*r
