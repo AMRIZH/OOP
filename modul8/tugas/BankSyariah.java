@@ -1,5 +1,10 @@
 package modul8.tugas;
 
 public class BankSyariah extends BankUmum{
-  public int bunga = 0;
+  protected int bunga = 0;
+
+  public BankSyariah(){
+    super();
+    System.out.println("Bunga Bank Syariah = "+this.bunga);
+  }
 }

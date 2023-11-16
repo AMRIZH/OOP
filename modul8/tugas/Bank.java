@@ -1,10 +1,10 @@
 package modul8.tugas;
 
 public class Bank {
-  public int bunga = 20;
+  protected int bunga = 20;
 
   public int rasioBunga(){
-    return this.bunga;
+    return bunga;
   }
   
   public void info(){
