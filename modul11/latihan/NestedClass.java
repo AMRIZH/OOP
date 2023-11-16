@@ -1,4 +1,4 @@
-package modul11;
+package modul11.latihan;
 
 public class NestedClass {
   String nama = "Amri";
@@ -13,6 +13,8 @@ public class NestedClass {
   }
 
   class InnerClass{
-    
+    public void jurusan(){
+      System.out.println("Jurusan saya adalah "+ StaticNestedClass.jurusan);
+    }
   }
 }

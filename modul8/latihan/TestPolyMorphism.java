@@ -15,7 +15,7 @@ public class TestPolyMorphism {
 
     Kucing cat = new Kucing();
     cat.setName("Cat Wadon");
-    cat.setSuara("meoong meong aing maunng");
+    cat.setSuara("meoong meong aing maungg");
     cat.setMakan("Ikan caviar palung mariana");
     System.out.println(cat.panggilNama());
     System.out.println(cat.getSuara());

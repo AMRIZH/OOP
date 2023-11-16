@@ -9,5 +9,6 @@ public class Elang extends Hewan{
 
   public static void main(String[] args) {
     Elang elang = new Elang();
+    elang.jalan();
   }
 }
