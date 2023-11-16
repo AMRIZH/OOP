@@ -8,6 +8,6 @@ public class Bank {
   }
   
   public void info(){
-    System.out.println("Nilai bunga : " + this.bunga); 
+    System.out.println("Nilai bunga bank : " + bunga+"%"); 
   }
 }

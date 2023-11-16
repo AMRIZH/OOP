@@ -4,7 +4,6 @@ public class BankUmum extends Bank{
   protected int bunga = 35;
 
   public BankUmum(){
-    super();
-    System.out.println("Bunga Bank Umum = "+this.bunga);
+    System.out.println("Bunga Bank Umum = "+this.bunga+"%");
   }
 }
