@@ -1,5 +1,4 @@
 package modul8.tugas;
-
 import java.sql.Date;
 
 public class CustomerData {
