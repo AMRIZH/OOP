@@ -8,7 +8,7 @@ public class PrismaSegiTiga extends BangungRuang{
   public PrismaSegiTiga(double tinggi, double tinggiAlas, double panjangAlas){
     this.tinggi = tinggi;
     this.tinggiAlas = tinggiAlas;
-
+    this.panjangAlas = panjangAlas;
   }
   @Override
   public double luas() {
