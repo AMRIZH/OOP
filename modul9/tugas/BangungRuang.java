@@ -1,14 +1,14 @@
 package modul9.tugas;
 
 public abstract class BangungRuang {
-  private String namaBangunan;
-  public BangungRuang(String nama) {
-    this.namaBangunan = nama;
+  public abstract double luas();
+  public abstract double volume();
+
+  public double getLuas(){
+    return luas();
   }
-  public void setNamaBangunan (String nama){
-    this.namaBangunan=nama;
-  }
-  public String getNamaBangunan(){
-    return this.namaBangunan;
+
+  public double getVolume(){
+    return volume();
   }
 }
