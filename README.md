@@ -23,3 +23,5 @@
 [6. Link Modul 7 Latihan](/modul7/KaryawanDemo.java)
 
 [7. Link Modul 8 Tugas](/modul8/tugas/BankDemo.java)
+
+[8. Link Modul 9 Tugas](/modul9/tugas/BangunRuangDemo.java)
