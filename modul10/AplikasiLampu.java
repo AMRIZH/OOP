@@ -8,12 +8,21 @@ public class AplikasiLampu {
     Scanner sc = new Scanner(System.in);
     lampu.statusLampu = lampu.setSaklar(0);
     System.out.println("Status lampu = " + lampu.statusLampu + "\nKetikkan");
-    System.out.println("1 untuk menyalakan lampu \n0 untuk mematikan lampu");
+    System.out.println("1 untuk menyalakan lampu \n-1 untuk mematikan lampu\n0 untuk meredupkan lampu");
+  
+  while (true) {
+    System.out.println("Masukkan pilihan : "); int input = sc.nextInt();
 
-    if(lampu.setSaklar(sc.nextInt())==0){
+    if(input==-1){
       lampu.matikanLampu();
-    } else {
+    } else if(input==1){
       lampu.nyalakanLampu();
+    } else if(input==0){
+      lampu.lampuRedup();
+    } else {
+      System.out.println("Keluar dari program lampu");
+      break;
     }
   }
+}
 }
