@@ -7,10 +7,11 @@ public class AplikasiLampu {
     Lampu lampu = new Lampu();
     Scanner sc = new Scanner(System.in);
     lampu.statusLampu = lampu.setSaklar(0);
-    System.out.println("Status lampu = " + lampu.statusLampu + "\nKetikkan");
-    System.out.println("1 untuk menyalakan lampu \n-1 untuk mematikan lampu\n0 untuk meredupkan lampu");
+    // System.out.println("Status lampu = " + lampu.statusLampu + "\nKetikkan");
+    System.out.println("Ketik\n 1 untuk menyalakan lampu \n-1 untuk mematikan lampu\n 0 untuk meredupkan lampu");
   
   while (true) {
+    System.out.println("Status lampu = " + lampu.statusLampu);
     System.out.println("Masukkan pilihan : "); int input = sc.nextInt();
 
     if(input==-1){
