@@ -15,7 +15,7 @@ public class BangunDatarDemo {
     pp.info();
 
     System.out.println("SegiTiga SamaKaki");
-    SegiTigaSamaKaki smk = new SegiTigaSamaKaki(30, 40);
+    SegiTigaSamaKaki smk = new SegiTigaSamaKaki(30, 40,45);
     smk.hitungKeliling();
     smk.hitungLuas();
     smk.info();

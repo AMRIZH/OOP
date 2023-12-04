@@ -11,7 +11,7 @@ public class AplikasiLampu {
     System.out.println("Ketik\n 1 untuk menyalakan lampu \n-1 untuk mematikan lampu\n 0 untuk meredupkan lampu");
   
   while (true) {
-    System.out.println("___________________\nStatus lampu = " + lampu.statusLampu);
+    System.out.println("\nStatus lampu = " + lampu.statusLampu);
     System.out.println("Masukkan pilihan : "); int input = sc.nextInt();
 
     if(input==-1){
