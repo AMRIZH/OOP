@@ -25,3 +25,5 @@
 [7. Link Modul 8 Tugas](/modul8/tugas/BankDemo.java)
 
 [8. Link Modul 9 Tugas](/modul9/tugas/BangunRuangDemo.java)
+
+[9. Link Modul 10 Tugas](/modul10/AplikasiLampu.java)
