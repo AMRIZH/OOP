@@ -1,6 +1,6 @@
 package modul11.latihan;
 
-public class NestedClass {
+public class statikcoba2 {
   String nama = "Amri";
   String nim = "L200224288";
 
@@ -9,13 +9,13 @@ public class NestedClass {
   }
 
   static class StaticNestedClass{
-    static String jurusan = "Informatika";
+    String jurusan = "Informatika";
   }
 
   class InnerClass{
-    // StaticNestedClass jenng = new StaticNestedClass();
+    StaticNestedClass jenng = new StaticNestedClass();
     public void jurusan(){
-      System.out.println("Jurusan saya adalah "+ StaticNestedClass.jurusan);
+      System.out.println("Jurusan saya adalah "+ jenng.jurusan);
     }
   }
 }

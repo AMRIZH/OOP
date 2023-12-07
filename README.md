@@ -27,3 +27,5 @@
 [8. Link Modul 9 Tugas](/modul9/tugas/BangunRuangDemo.java)
 
 [9. Link Modul 10 Tugas](/modul10/AplikasiLampu.java)
+
+[10. Link Modul 11 Latihan](/modul11/latihan/StaticNestedClass.java)
