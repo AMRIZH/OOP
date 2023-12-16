@@ -28,7 +28,7 @@ public class FrameB extends javax.swing.JFrame {
         JPanel panel = new JPanel();
 
         // Get the URL of the image (replace the path with the correct image file path)
-        URL img = FrameB.class.getResource("HI3 family.png");
+        URL img = FrameB.class.getResource("fdkingston.png");
 
         // Create a JButton with text "OK"
         JButton jbtOK = new JButton("OK");

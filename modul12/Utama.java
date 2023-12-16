@@ -26,7 +26,7 @@ public class Utama extends JFrame {
         super(judul);
 
         // Set the size of the JFrame
-        setSize(300, 100);
+        setSize(300, 100);j
 
         // Set the default close operation to exit the application
         setDefaultCloseOperation(EXIT_ON_CLOSE);
