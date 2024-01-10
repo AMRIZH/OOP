@@ -15,6 +15,7 @@ public class LoginPage extends JFrame{
     setVisible(true);
     // Center the JFrame on the screen
     setLocationRelativeTo(null);
+    
   }
   public static void main(String[] args) {
     LoginPage login = new LoginPage();
