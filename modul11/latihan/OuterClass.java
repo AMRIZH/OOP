@@ -27,3 +27,7 @@ public class OuterClass {
 
   }
 }
+
+// ----------------------------------------------------------------
+// Innerclass code : 1
+// StaticNestedClass count : 2
