@@ -23,7 +23,11 @@ public class TextDisplay {
     JFrame frame = new JFrame("Display Text");
     frame.add(textfield);
     frame.add(label);
+<<<<<<< HEAD
     frame.setSize(250,200);
+=======
+    frame.setSize(250,100);
+>>>>>>> 587ffd38ad6ea12244d5c78e7ae369a3659ae3c5
     frame.setVisible(true);
   }
   public static void main(String[] args) {

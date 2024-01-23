@@ -21,6 +21,7 @@ class implementMember extends Member {
   void information(){
     System.out.println("implement absract class Member >> method information");
   }
+<<<<<<< HEAD
 
   public static void main(String[] args) {
     implementMember im = new implementMember();
@@ -28,4 +29,6 @@ class implementMember extends Member {
     im.presence();
     im.information();
   }
+=======
+>>>>>>> 587ffd38ad6ea12244d5c78e7ae369a3659ae3c5
 }
